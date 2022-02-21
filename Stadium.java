@@ -1,8 +1,8 @@
 package ua.lviv.iot.firstLab;
 
 public record Stadium(String name, String location, 
-					int seatingCapacity, int spectatorsNumber, 
-					int lightPower, float fieldArea) {
+			int seatingCapacity, int spectatorsNumber, 
+			int lightPower, float fieldArea) {
 
 	private static boolean isOutdoor = true;
 	
