@@ -7,9 +7,9 @@ public class Main {
 		Stadium second = new Stadium("Camp Nou", "Barcelona, Catalonia, Spain", 99354);
 		Stadium third = new Stadium();
 		
-		System.out.println(first.toString());
-		System.out.println(second.toString());
-		System.out.println(third.toString());
+		System.out.println(first);
+		System.out.println(second);
+		System.out.println(third);
 		System.out.println("the stadium is " + (Stadium.getIsOutdoor()?"outdoor":"indoor"));
 	}
 }
